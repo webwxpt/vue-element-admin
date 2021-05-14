@@ -125,7 +125,7 @@ export default {
     }
   },
   created() {
-    // window.addEventListener('storage', this.afterQRScan)
+    // window.addEventListener('fileStorageTemp', this.afterQRScan)
   },
   mounted() {
     if (this.loginForm.username === '') {
@@ -135,7 +135,7 @@ export default {
     }
   },
   destroyed() {
-    // window.removeEventListener('storage', this.afterQRScan)
+    // window.removeEventListener('fileStorageTemp', this.afterQRScan)
   },
   methods: {
     checkCapslock(e) {
